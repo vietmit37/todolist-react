@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.wrapper-todo {
+  width: 400px;
+  padding: 10px 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.wrapper-todo h1 {
+  text-align: center;
+}
+.wrapper-todo .alert {
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.wrapper-todo .alert-success {
+  background-color: #f6ffed;
+  border: 1px solid #b7eb8f;
+}
+.wrapper-todo .alert-danger {
+  background-color: #fff2f0;
+  border: 1px solid #ffccc7;
+}
+.todo-name {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.todo__name--checkbox {
+  display: flex;
+  gap: 10px;
+}
+.todo__name--checkbox .task-name.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
